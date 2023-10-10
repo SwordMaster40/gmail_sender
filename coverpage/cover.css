@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.gradient-section   {
+    width: 50%;
+    position: relative;
+}
+
+.gradient   {
+    width: 100%;
+    height: 100%;
+    background-color: #1311a0;
+    background-image: 
+    radial-gradient(at 83% 69%, rgb(235, 52, 52)  0px, transparent 50%),
+    radial-gradient(at 9% 70%, rgb(7, 235, 7) 0px, transparent 50%),
+    radial-gradient(at 61% 52%, black 0px, transparent 50%),
+    radial-gradient(at 28% 93%, rgb(253, 253, 253) 0px, transparent 50%),
+    radial-gradient(at 44% 9%, rgb(236, 236, 9) 0px, transparent 50%),
+    radial-gradient(at 51% 86%, black 0px, transparent 50%),
+    radial-gradient(at 32% 55%, rgb(8, 205, 231) 0px, transparent 50%);
+
+}
+
+.gradient-content   {
+    padding: 2rem;
+    width: 92%;
+    color: hsl(000,  );
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: pink;
+    box-shadow: 0 4px 3px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.7px);
+    -webkit-backdrop-filter: blur(6.7px);
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.gradient-content h1    {
+    font-weight: 600;
+    font-size: 2.3rem;
+    margin-bottom: 1rem;
+}
+
+.gradient-content span  {
+    color: white;
+}
